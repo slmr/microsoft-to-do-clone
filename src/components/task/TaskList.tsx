@@ -333,7 +333,7 @@ const TaskList: FC<{ tasks: Task[]; completedTasks: Task[]; isDragDisabled: bool
                                   borderRadius="sm"
                                   onClick={() => handleMoveTask(list.id)}
                                 >
-                                  List 1
+                                  {list.title}
                                 </Button>
                               </ListItem>
                             ))}
